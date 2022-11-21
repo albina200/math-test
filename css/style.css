@@ -1,0 +1,80 @@
+body {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    padding: 130px 0;
+    background-color: #231F20;
+    color: crimson;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 27px;
+    line-height: 35px;
+    margin: 45px 0 30px 0;
+    color: white;
+}
+
+.calculate {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    transition: 0.2s;
+    color: white;
+    background-color: crimson;
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+label {
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 5px;
+    color: white;
+}
+
+select {
+    border: 1px solid crimson;
+    padding: 6px 10px;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+option {
+    background-color: #231F20;
+}
+
+select:focus {
+    transform: scale(105%);
+}
+
+.statistics-button {
+    margin: 0 10px;
+    width: 220px;
+}
+
+.statistics-button:hover {
+    transform: scale(105%);
+}

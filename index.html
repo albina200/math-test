@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Математический Тест</title>
+    <link rel="stylesheet" href="./css/zero.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <h1>Математический тест</h1>
+
+    <p>Нажми на кнопку и получи задание</p>
+
+    <div class="calculate">
+        <button id="plus">Сложить</button>
+        <button id="subtract">Вычесть</button>
+        <button id="multiply">Умножить</button>
+        <button id="divide">Разделить</button>
+    </div>
+
+    <label for="select">Выбери уровень:</label>
+    <select name="" id="select">
+        <option value="easy">Лёгкий (от 1 - 10)</option>
+        <option value="medium">Средний (от 11 - 100)</option>
+        <option value="hard">Сложный (от 101 - 1000)</option>
+    </select>
+
+    <br>
+
+    <button id="statistics" class="statistics-button">Посмотреть статистику</button>
+    <button id="resetStatistics" class="statistics-button">Сбросить статистику</button>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
